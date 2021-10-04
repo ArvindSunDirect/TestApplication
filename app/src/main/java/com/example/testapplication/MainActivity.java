@@ -8,6 +8,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     TextView textView;
+    String s = "Developing";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,5 +18,8 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.tv);
 
         textView.setText("App Developing");
+
+        textView.setText(s);
+
     }
 }
