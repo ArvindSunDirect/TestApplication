@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     String s = "Developing";
 
-    Button b;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
